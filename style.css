@@ -242,13 +242,13 @@
 .footerContainer {
   padding: 20px 80px;
   height: 40%;
-  gap:40px ;
+  gap: 40px;
   display: flex;
   justify-content: space-between;
 }
 .footerfield {
   display: flex;
-  gap:40px ;
+  gap: 40px;
 }
 .footerTitles {
   font-size: 20px;
@@ -337,8 +337,7 @@
     width: 100% !important;
     height: 60% !important;
   }
-  .trendsTextTitle
-  {
+  .trendsTextTitle {
     font-size: 30px;
   }
   .trendsTextDescription {
@@ -408,7 +407,7 @@
     width: 100%;
     height: auto;
   }
-  .footerfield{
+  .footerfield {
     flex-direction: column;
   }
 }

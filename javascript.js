@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const burgerMenu = document.querySelector(".burger-menu");
-    const menuContainer = document.querySelector(".menuContainer");
+  const burgerMenu = document.querySelector(".burger-menu");
+  const menuContainer = document.querySelector(".menuContainer");
 
-    burgerMenu.addEventListener("click", function () {
-        menuContainer.classList.toggle("show");
-    });
+  burgerMenu.addEventListener("click", function () {
+    menuContainer.classList.toggle("show");
+  });
 });
