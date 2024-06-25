@@ -22,6 +22,7 @@
 .menuContainer {
   display: flex;
   gap: 40px;
+  z-index: 1;
 }
 .active {
   color: black !important;
@@ -309,8 +310,7 @@
   .cardContainer {
     flex-direction: column;
     width: 100%;
-    height: 85%;
-    margin-bottom: 20%;
+    height: auto;
     gap: 20px;
   }
   .cards {
@@ -352,18 +352,20 @@
 }
 @media (max-width: 768px) {
   .headerContainer {
-    padding: 10px 40px 0px;
+    padding: 10px 0px 0px;
+    margin-right: 40px;
   }
   .menuContainer {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 80px;
     width: 100%;
     background-color: #f8f8f8;
   }
   .menuContainer a {
-    padding: 10px 20px;
+    text-align: center;
+    padding: 40px 0px 0px;
     border-top: 1px solid #ddd;
   }
   .burger-menu {
